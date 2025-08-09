@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.first_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.left_container {
+  width: 50%;
+  height: 600px;
+}
+
+.left_container img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.right_container {
+  width: 50%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  font-size: 42px;
+  font-family: apple-system;
+  text-align: center;
+  margin: 20px;
+}
+
+input {
+  width: 350px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 5px;
+  padding-left: 10px;
+  border: 0.1px, solid, grey;
+  outline-color: grey;
+  align-content: center;
+}
+
+button {
+  width: 100%;
+  height: 40px;
+  background-color: #3441af;
+  color: white;
+  outline: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #111fa0;
+}
+
+legend {
+  color: gray;
+  margin-left: 45%;
+  padding: 0 20px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+fieldset {
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.login_with_facebook {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  text-decoration: none;
+  font-weight: 700px;
+  font-size: 20px;
+}
+
+.forgot_password {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #111fa0;
+}
+
+.forgot_password:hover {
+  cursor: pointer;
+  color: #0d0dff;
+  text-decoration: underline;
+}
+
+.sign_up_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+.sign_up {
+  color: #111fa0;
+  text-decoration: none;
+}
+.sign_up:hover {
+  cursor: pointer;
+  color: #5b5bec;
+}
